@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Shared\MyCookbook.Communication\MyCookbook.Communication.csproj" />
     <ProjectReference Include="..\..\Shared\MyCookbook.Exceptions\MyCookbook.Exceptions.csproj" />
     <ProjectReference Include="..\MyCookbook.Application\MyCookbook.Application.csproj" />
