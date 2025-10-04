@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{34A49875-5B5B-44D5-8BF6-67E329C50661}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{07A49D19-5DA1-40C1-9FEB-8DF4BEB24A8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{220E1A17-DF7D-42C3-88CD-0E7A60274F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCookbook.API", "src\Backend\MyCookbook.API\MyCookbook.API.csproj", "{D3F2C3F9-EA6A-4D21-B22B-F6F6F189FDEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3F2C3F9-EA6A-4D21-B22B-F6F6F189FDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F2C3F9-EA6A-4D21-B22B-F6F6F189FDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F2C3F9-EA6A-4D21-B22B-F6F6F189FDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F2C3F9-EA6A-4D21-B22B-F6F6F189FDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07A49D19-5DA1-40C1-9FEB-8DF4BEB24A8D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{220E1A17-DF7D-42C3-88CD-0E7A60274F3C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D3F2C3F9-EA6A-4D21-B22B-F6F6F189FDEE} = {07A49D19-5DA1-40C1-9FEB-8DF4BEB24A8D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9BA91A4-D0ED-4EB1-9AC7-D3A6743B0D86}
+	EndGlobalSection
+EndGlobal
