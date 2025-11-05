@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MyCookbook.Application.UseCases.User.Register;
 using MyCookbook.Communication.Requests;
 using MyCookbook.Communication.Responses;
 
@@ -13,12 +14,10 @@ namespace MyCookbook.API.Controllers
         [ProducesResponseType(typeof(ResponseRegisterUserJson),StatusCodes.Status201Created)]
         public IActionResult Register(RequestRegisterUserJson request)
         {
-            var response = new ResponseRegisterUserJson
-            {
-                Name = request.Name + " foi criado"
-            };
+            RegisterUserUseCase useCase = new();
+            var result = useCase.Execute(request);
 
-            return Created(string.Empty, response);
+            return Created(string.Empty, result);
         }
     }
 }
