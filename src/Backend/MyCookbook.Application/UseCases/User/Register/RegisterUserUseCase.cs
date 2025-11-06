@@ -1,5 +1,6 @@
 ﻿using MyCookbook.Communication.Requests;
 using MyCookbook.Communication.Responses;
+using MyCookbook.Exceptions.ExceptionsBase;
 
 namespace MyCookbook.Application.UseCases.User.Register
 {
@@ -21,7 +22,7 @@ namespace MyCookbook.Application.UseCases.User.Register
             if(!result.IsValid)
             {
                 var errors = result.Errors.Select(e => e.ErrorMessage).ToList();
-                throw new ArgumentException(string.Join("; ", errors));
+                throw new ErrorOnValidationException(errors);
             }
         }
     }

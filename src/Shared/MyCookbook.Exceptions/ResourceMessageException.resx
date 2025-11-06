@@ -129,4 +129,7 @@
   <data name="NAME_EMPTY" xml:space="preserve">
     <value>Name can not be empty.</value>
   </data>
+  <data name="UNKNOW_ERROR" xml:space="preserve">
+    <value>Unknow error</value>
+  </data>
 </root>

@@ -95,5 +95,14 @@ namespace MyCookbook.Exceptions {
                 return ResourceManager.GetString("PASSWORD_LENGHT", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unknow error.
+        /// </summary>
+        public static string UNKNOW_ERROR {
+            get {
+                return ResourceManager.GetString("UNKNOW_ERROR", resourceCulture);
+            }
+        }
     }
 }
